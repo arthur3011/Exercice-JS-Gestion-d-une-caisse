@@ -7,3 +7,9 @@ const quantite_stylo =3 ;
 const cahier = prix_cahier*quantite_cahier;
 const stylo = 	prix_stylo*quantite_stylo;
 const total = cahier+stylo;
+
+// Calcul du montant des achats des stylos et cahiers
+console.log("===== CAISSE =====");
+console.log("Cahiers : ",prix_cahier*quantite_cahier," FCFA");
+console.log("Tylos : ",prix_stylo*quantite_stylo," FCFA");
+console.log("Total : ",cahier+stylo," FCFA");
