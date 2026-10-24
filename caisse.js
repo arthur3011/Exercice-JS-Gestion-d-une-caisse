@@ -13,3 +13,13 @@ console.log("===== CAISSE =====");
 console.log("Cahiers : ",prix_cahier*quantite_cahier," FCFA");
 console.log("Tylos : ",prix_stylo*quantite_stylo," FCFA");
 console.log("Total : ",cahier+stylo," FCFA");
+
+// Utilisation de la condition
+console.log("Budget : ",budget_du_client," FCFA");
+if (total <= budget_du_client) {
+    console.log("Budget suffisant")
+} else {
+    console.log("Budget insuffisant")
+}
+
+console.log(" ")
