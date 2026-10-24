@@ -23,3 +23,19 @@ if (total <= budget_du_client) {
 }
 
 console.log(" ")
+
+// Utilisation de la boucle for
+/*
+let i = 1
+for (let i = 1;
+    i < 6;
+    i++) {
+console.log("Achat numéro ", i)
+    }
+*/
+
+// Utilisation de la boucle while
+let i = 1;
+while (i < 6) {
+    console.log("Achat numéro ",i++)
+}
